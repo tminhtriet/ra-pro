@@ -1,0 +1,236 @@
+body {
+	font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #2f4050;
+	font-size: 13px;
+	color: #333;
+	overflow-x: hidden;
+}
+
+#to_top {
+	bottom: 63px;
+	position: fixed;
+	right: 20px;
+	z-index: 2000;
+	cursor: pointer;
+}
+
+#to_bottom {
+	bottom: 30px;
+	position: fixed;
+	right: 20px;
+	z-index: 2000;
+	cursor: pointer;
+}
+
+.flip-ver {
+	transform: rotate(180deg);
+	-ms-transform: rotate(180deg); /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
+}
+
+.opacity {
+	opacity: 0.4;
+	filter: alpha(opacity = 40);
+}
+
+.boxcss {
+	right: 0;
+	-webkit-transition: width 0.1s;
+	transition: width 0.1s;
+	width: 0px;
+	opacity: 0;
+	position: absolute;
+	overflow: hidden;
+	display: block;
+	z-index: 100;
+	margin-top: 0px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.select2-container--default .select2-selection--single {
+	background: none;
+	border-radius: 3px;
+	color: #444;
+	display: block;
+	height: 34px;
+	line-height: 30px;
+	overflow: hidden;
+	padding: 2px 0 0 8px;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+	box-shadow: none;
+	border: 1px solid #e5e6e7;
+	cursor: pointer;
+	font-size: 13px;
+	min-width: 80px;
+}
+
+.select2-container--open .select2-dropdown--below {
+	min-width: 80px;
+	border: 1px solid #e5e6e7;
+	border-top: 0px;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0 4px 4px 0;
+}
+
+.select2-container--open .select2-dropdown--above {
+	min-width: 80px;
+	border: 1px solid #e5e6e7;
+	border-bottom: 0px;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0 4px 4px 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow
+	{
+	top: 3px;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered
+	{
+	padding-left: 0px;
+}
+
+.chosen-container-single .chosen-single {
+	background: none;
+	border-radius: 3px;
+	color: #444;
+	display: block;
+	height: 34px;
+	line-height: 30px;
+	overflow: hidden;
+	padding: 2px 0 0 8px;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+	box-shadow: none;
+	border: 1px solid #e5e6e7;
+	cursor: pointer;
+}
+
+.chosen-container-single .chosen-single div b {
+	margin-top: 4px;
+}
+
+.chosen-select {
+	width: 100%;
+}
+
+.inmodal .modal-header {
+	padding: 20px 15px;
+	text-align: left;
+	color: #1c84c6;
+}
+
+.inmodal .modal-title {
+	font-size: 20px;
+}
+
+.nav>li.active {
+	background: #293846 none repeat scroll 0 0;
+	border-left: 4px solid #1c84c6;
+}
+
+.pace .pace-progress {
+	background: #1c84c6;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: 2px;
+}
+
+.form-control:focus, .single-line:focus {
+	border-color: #1c84c6 !important;
+}
+
+.sk-spinner-wave div {
+	animation: 1.2s ease-in-out 0s normal none infinite running
+		sk-waveStretchDelay;
+	background-color: #1c84c6;
+	display: inline-block;
+	height: 100%;
+	width: 6px;
+}
+
+.ibox-content {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 0px;
+	border-width: 0px 0px;
+}
+
+.ibox-title {
+	border-width: 0px 0px 0;
+}
+
+.ibox {
+	margin-bottom: 0px;
+}
+
+.chosen-container.chosen-container-single {
+	width: 100% !important;
+}
+
+.table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
+	background-color: #337ab7;
+	color: white;
+}
+
+table.dataTable.dtr-inline.collapsed tbody td:first-child:before, table.dataTable.dtr-inline.collapsed tbody th:first-child:before
+	{
+	background-color: #337ab7;
+	line-height: 16px;
+}
+
+.ibox-title h5 {
+	font-size: 20px;
+}
+
+table thead tr th {
+	white-space: nowrap;
+}
+
+table tbody tr td {
+	white-space: nowrap;
+}
+
+table thead tr th.myTableHeader {
+	vertical-align: bottom;
+}
+
+ul li.active a.mycustom {
+	background: linear-gradient(#334556, #2C4257), #2A3F54;
+	text-shadow: rgba(0, 0, 0, .25) 0 -1px 0;
+	box-shadow: rgba(0, 0, 0, .25) 0 1px 0, inset rgba(255, 255, 255, .16) 0
+		1px 0;
+}
+
+.ibox-footer {
+	border-top: inherit;
+	padding-top: 0px;
+}
+
+.sk-spinner-cube-grid .sk-cube {
+	background-color: #1c84c6;
+}
+
+.table-responsive {
+	margin-bottom: 10px;
+}
+
+.dataTables_wrapper {
+	padding-bottom: 15px;
+}
+
+.rs-table{
+	height: 35px; 
+	padding-top: 10px;
+}

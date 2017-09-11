@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    <div class="ibox float-e-margins">
+      <div class="ibox-title">
+        <h5>Filter</h5>
+        <div class="ibox-tools">
+          <a class="collapse-link-custom">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="ibox-content">
+        <div class="row">
+          <div class="col-sm-3 col-sm-offset-3">
+            <div class="form-group">
+              <my-date-picker name="myDate" [options]="myConfigDate"></my-date-picker>
+              <label class="text-danger" id="err_own"></label>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="form-group">
+              <label>&nbsp;</label>
+              <input type="button" class="btn btn-default btn-w-m btn-outline" value="Excel"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
